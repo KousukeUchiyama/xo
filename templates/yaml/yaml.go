@@ -6,8 +6,8 @@ import (
 	"context"
 	"text/template"
 
+	xo "github.com/KousukeUchiyama/xo/types"
 	"github.com/goccy/go-yaml"
-	xo "github.com/xo/xo/types"
 )
 
 // Init registers the template.

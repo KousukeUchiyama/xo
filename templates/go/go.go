@@ -17,10 +17,10 @@ import (
 	"strings"
 	"text/template"
 
+	"github.com/KousukeUchiyama/xo/loader"
+	xo "github.com/KousukeUchiyama/xo/types"
 	"github.com/kenshaw/inflector"
 	"github.com/kenshaw/snaker"
-	"github.com/xo/xo/loader"
-	xo "github.com/xo/xo/types"
 	"golang.org/x/tools/imports"
 	"mvdan.cc/gofumpt/format"
 )

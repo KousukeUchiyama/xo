@@ -14,10 +14,10 @@ import (
 	"strings"
 	"text/template"
 
+	"github.com/KousukeUchiyama/xo/internal"
+	xo "github.com/KousukeUchiyama/xo/types"
 	"github.com/traefik/yaegi/interp"
 	"github.com/traefik/yaegi/stdlib"
-	"github.com/xo/xo/internal"
-	xo "github.com/xo/xo/types"
 )
 
 // Set holds a set of templates and handles generating files for a target
