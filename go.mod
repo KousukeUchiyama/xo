@@ -2,6 +2,10 @@ module github.com/KousukeUchiyama/xo
 
 go 1.19
 
+replace (
+	github.com/xo/xo@latest => github.com/KousukeUchiyama/xo@latest
+)
+
 require (
 	github.com/Masterminds/sprig/v3 v3.2.2
 	github.com/go-sql-driver/mysql v1.6.0
