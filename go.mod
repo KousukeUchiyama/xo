@@ -1,4 +1,4 @@
-module github.com/KosukeUchiyama/xo
+module github.com/KousukeUchiyama/xo
 
 go 1.19
 
